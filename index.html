@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<html lang="en-CA">
+
+  <head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+
+    <title>Final Project</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        min-height: 5500px;
+      }
+
+      .page-wrapper {
+        width: 1440px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      .container {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      /* Header section with  logo and nav */
+      .header {
+        text-align: center;
+        padding: 20px 0;
+      }
+      
+      
+      @keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+      .logo {
+        max-width: 180px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+        animation: float 3s ease-in-out infinite;
+
+      
+      }
+
+      /* Navigation */
+      nav {
+
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        font-family: "Playpen Sans", cursive;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+
+      }
+
+      nav a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+      }
+
+
+      /* Banner section */
+      .banner {
+        background-color: rgba(72, 0, 0, 1);
+        padding: 60px 0;
+        width: 100%;
+        position: relative;
+      
+
+      }
+
+      .banner h1 {
+        color: white;
+        margin: 0 0 20px 0;
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+     
+      }
+
+      h2 {
+        color: rgba(72, 0, 0, 1);
+        margin: 0 0 20px 0;
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+       
+      }
+
+      .banner p {
+        color: white;
+        font-family: "Annie Use Your Telescope", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 60px;
+        font-size: 20px;
+       
+      }
+
+
+      p {
+        font-family: "Annie Use Your Telescope", cursive;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 20px;
+      
+      }
+
+      .boat-image {
+        position: absolute;
+        right: 120px;
+        bottom: -250px;
+        max-width: 400px;
+        z-index: 10;
+        
+       
+      }
+
+      .below-banner {
+        margin-top: 230px;
+        
+      }
+
+      .sword-image {
+        position: absolute;
+        right: 120px;
+        bottom: -920px;
+        max-width: 1200px;
+        z-index: 10;
+        opacity: 15%
+      }
+
+      .roger-image {
+        position: absolute;
+        right: 120px;
+        bottom: -1500px;
+        max-width: 400px;
+        z-index: 15;
+
+        
+      }
+
+      .roger-text {
+        position: absolute;
+        left: 0;
+        bottom: -1480px;
+        max-width: 600px;
+        line-height: 40px;
+       
+      }
+
+      .summary-text {
+        position: absolute;
+        left: 0;
+        bottom: -4500px;
+        max-width: 600px;
+        line-height: 40px;
+        
+      }
+
+      .map-image {
+        position: absolute;
+        right: 615px;
+        bottom: -2300px;
+        max-width: 530px;
+        z-index: 15;
+        
+       
+      }
+
+      .c1-image {
+        position: absolute;
+        right: 615px;
+        bottom: -2940px;
+        max-width: 530px;
+        z-index: 15;
+       
+        
+      }
+
+      .star-image {
+        position: absolute;
+        right: 300px;
+        bottom: -2465px;
+        max-width: 290px;
+        z-index: 15;
+        
+        
+      }
+
+      .poster-image {
+        position: absolute;
+        right: 300px;
+        bottom: -2940px;
+        max-width: 290px;
+        z-index: 15;
+        
+       
+      }
+
+      .ship-image {
+        position: absolute;
+        right: 300px;
+        bottom: -3350px;
+        max-width: 845px;
+        z-index: 15;
+        
+        
+      }
+
+
+      .joyboy-image {
+        position: absolute;
+        right: -600px;
+        bottom: 100px;
+        max-width: 900px;
+        z-index: 15;
+        
+        
+      }
+
+      .wave-banner {
+        position: absolute;
+        bottom: -5400px;
+        left: 0;
+        width: 100%;
+        padding: 0;
+      
+       
+      }
+
+      .wave-banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+
+  </head>
+
+
+  <body>
+
+
+    <div class="page-wrapper">
+
+      <div>
+        <nav>
+          <a href="#crew">THE CREW</a>
+          <a href="#luffy">LUFFY</a>
+          <a href="#devil-fruits">DEVIL FRUITS</a>
+        </nav>
+
+
+      </div>
+
+
+      <div class="container header">
+        <img src="skull.png" alt="One Piece Logo" class="logo">
+      </div>
+
+
+      <div class="banner">
+
+        <div class="container">
+          <h1>One Piece</h1>
+
+          <p>
+            A story of freedom chased across an endless sea,<br>
+            a tale of dreams carried by those brave enough to seek them.</p>
+
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="container below-banner">
+          <p>a world where the weight of history rests in the hearts of pirates.</p>
+        </div>
+
+        <img src="banner1.png" alt="Boat" class="boat-image">
+
+      </div>
+
+
+
+      <img src="roger.png" alt="king" class="roger-image">
+
+
+      <img src="swords.png" alt="swords" class="sword-image">
+
+
+      <div class="container" style="position: relative;">
+        <div class="roger-text">
+
+          <p>
+            Wealth, fame, power... Gold Roger, the King of the Pirates, obtained this and everything else the world had to offer and his dying words drove countless souls to the seas.
+          </p> <br>
+          <p>
+            "You want my treasure? You can have it! I left everything I gathered together in one place! Now you just have to find it!" </p><br>
+          <p><br>
+            These words lured men to the Grand Line. In pursuit of dreams greater than they've ever dared to imagine! This is the time known as the 'Great Pirate Era'!
+          </p>
+        </div>
+      </div>
+
+      <img src="map.png" alt="king" class="map-image">
+
+      <img src="c1.png" alt="king" class="c1-image">
+
+      <img src="star.png" alt="king" class="star-image">
+
+      <img src="poster.png" alt="king" class="poster-image">
+
+      <img src="ship.png" alt="king" class="ship-image">
+
+
+      <div class="container" style="position: relative;">
+        <div class="summary-text">
+
+
+
+          <h2>
+            Summary
+          </h2>
+          <p>
+            One Piece follows Monkey D. Luffy and his crew as they sail across a vast, unpredictable world in search of the legendary treasure known as the One Piece. On the surface, it’s an adventure about pirates, friendship, and chasing impossible dreams.</p>
+
+          <br>
+          <p>but beneath that, the story explores deep political and social themes.
+            The world of One Piece reflects real global issues: corrupt governments that hide truth, the rewriting of history to control populations, social inequality, racism, slavery, environmental destruction, and the abuse of power by military and political elites.</p>
+
+          <br>
+          <p>Through its islands and arcs, the series critiques censorship, colonialism, discrimination, and the consequences of war, while celebrating resistance, freedom, and the right to live without oppression.</p>
+
+
+          <br>
+          <p>At its core, One Piece is about finding the courage to challenge unjust systems and pursue a world where everyone is free.</p>
+
+
+          <img src="joyboy.png" alt="king" class="joyboy-image">
+
+
+        </div>
+      </div>
+      <div class="wave-banner">
+        <img src="water.png" alt="ocean waves">
+      </div>
+    </div>
+    
+    <script>
+      // Fade in elements on scroll
+      const fadeElements = document.querySelectorAll('.banner, .below-banner, .boat-image, .roger-image, .sword-image, .roger-text, .map-image, .c1-image, .star-image, .poster-image, .ship-image, .summary-text, .joyboy-image, .wave-banner');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      fadeElements.forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 1s ease-out, transform 1s ease-out';
+        observer.observe(el);
+      });
+    </script>
+    
+  </body>
+</html>
